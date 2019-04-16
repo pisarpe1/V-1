@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="677.0" prefWidth="914.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tutorial.FXMLDocumentController">
+    <children>
+      <ImageView fx:id="slide" fitHeight="721.0" fitWidth="914.0" layoutX="44.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@v2slide0.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrowRight" fitHeight="68.0" fitWidth="109.0" layoutX="488.0" layoutY="613.0" onMousePressed="#rightArrowClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@right.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrowLeft" fitHeight="68.0" fitWidth="109.0" layoutX="373.0" layoutY="613.0" onMousePressed="#leftArrowClicked" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@left.PNG" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>
